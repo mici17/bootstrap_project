@@ -1,0 +1,36 @@
+.portfolio {
+  margin-top: 100px;
+
+  h1 {
+    font-family: $mainfont;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .star {
+    position: relative;
+    height: 3px;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: black;
+}
+.star i {
+    color: black;
+    position: relative;
+    left: 48%;
+    bottom: 10px;
+    background-color: white;
+}
+
+  .portfoliofirstrow {
+    margin-bottom: 10px;
+  }
+
+  .portfoliosecondrow {
+    margin-bottom: 100px;
+  }
+  .portfoliosecondrow .col-xl-4 {
+    margin-bottom: 30px;
+  }
+}

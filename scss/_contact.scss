@@ -1,0 +1,74 @@
+.contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  h1 {
+    font-family: $mainfont;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .star {
+    position: relative;
+    height: 3px;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: black;
+}
+.star i {
+    color: black;
+    position: relative;
+    left: 49%;
+    bottom: 10px;
+    background-color: white;
+}
+
+  input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-family: $mainfont;
+    width: 60%;
+    display: inline-block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 20%;
+  }
+
+  button {
+    padding: 5px 5px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    background-color: $prime_color;
+    color: white;
+    border: none;
+    font-family: $mainfont;
+    font-weight: 500;
+    border-radius: 2px;
+  }
+
+  textarea {
+    padding: 7px;
+    width: 60%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 20%;
+  }
+}
+
+@media screen and(max-width: 1200px) {
+  .contact {
+    input {
+      width: 95%;
+      margin-left: 0px;
+    }
+    textarea {
+      width: 95%;
+      margin-left: 0px;
+    }
+  }
+}

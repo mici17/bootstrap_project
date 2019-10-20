@@ -1,0 +1,93 @@
+@import 'variable';
+@import 'navbar';
+@import 'masthead';
+@import 'portfolio';
+@import 'global';
+@import 'contact';
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.col {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+header {
+  background-color: $header_footer_color;
+
+  p {
+    float: left;
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+    padding-top: 11px;
+    text-align: center;
+  }
+}
+
+footer {
+  background-color: $header_footer_color;
+  font-family: $mainfont;
+  color: white;
+  font-weight: 900;
+
+  h3 {
+    color: white;
+    font-weight: 900;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+  }
+
+  span {
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+  }
+}
+
+@media screen and(max-width: 1200px) {
+  footer {
+    h3 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 14px;
+    }
+    span {
+    padding: 5px 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    }
+    span {
+      padding: 10px 10px;
+      border: 2px solid white;
+      border-radius: 20px;
+    }
+  }
+}
+
+@media screen and(max-width: 680px) {
+  header {
+    p {
+      font-size: 16px;
+    }
+  }
+}

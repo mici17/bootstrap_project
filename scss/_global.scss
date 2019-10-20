@@ -1,0 +1,85 @@
+.about {
+  background-color: $prime_color;
+  color: white;
+  font-family: $mainfont;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  h1 {
+    font-family: $mainfont;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .star {
+    text-align: center;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  .pdOne {
+    width: 60%;
+    margin-left: 40%;
+  }
+  .pdTwo {
+    width: 60%;
+  }
+
+  .star {
+    position: relative;
+    height: 3px;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.star i {
+    color: white;
+    position: relative;
+    left: 1%;
+    bottom: 10px;
+    background-color: #00bc9c;
+}
+
+  button {
+    text-align: center;
+    background-color: $prime_color;
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and(max-width: 1200px) {
+  .about .pdOne {
+    margin-left: 0px;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .about .pdTwo {
+    margin-left: 0px;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .about p {
+    text-align: left;
+  }
+}
+
+@media screen and(max-width: 400px) {
+  .about .pdOne p {
+    font-size: 12px;
+    text-align: justify;
+  }
+  .about .pdTwo p {
+    font-size: 12px;
+    text-align: justify;
+    margin: 0px;
+  }  
+
+}

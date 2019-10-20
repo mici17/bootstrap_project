@@ -1,0 +1,47 @@
+.masthead {
+    text-align: center;
+    background-color: $prime_color;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 40px;
+
+    h1 {
+        font-family: $mainfont;
+        font-weight: 900;
+        font-size: 64px;
+    }
+
+    p {
+        font-family: $mainfont;
+        font-weight: 700;
+    }
+
+    .star {
+        position: relative;
+        height: 3px;
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        background-color: white;
+    }
+    .star i {
+        color: white;
+        position: relative;
+        left: 1%;
+        bottom: 10px;
+        background-color: #00bc9c;
+    }
+}
+
+
+@media screen and(max-width: 500px) {
+    .masthead {
+        h1 {
+            font-size: 32px;
+        }
+        p {
+            font-size: 12px;
+        }
+       
+    }
+}
